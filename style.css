@@ -1,0 +1,86 @@
+:root{
+    color: #fff;
+    font-family: arial;
+    font-size: 1.2rem;
+}
+body{
+    background: url(./bg-one.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+#data{
+    text-align: center;
+    margin-top: 20%;
+}
+#heading{
+    font-size: 3rem;
+    font-weight: 100;
+}
+
+#form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input{
+    padding: 8px;
+    border: 0px;
+    font-size: 0.8rem;
+}
+#btn1{
+    background: rgb(57, 42, 192);
+    text-align: center;
+    padding: 8px;
+    font-size: 0.8rem;
+    border: 0px;
+    color: #fff;
+    width: 100px;
+    cursor: pointer;
+}
+#up-text{
+    color: #fff;
+    text-align: center;
+    background: rgba(150, 140, 140,0.3);
+    padding: 5px;
+}
+#left-text{
+    text-align: center;
+    background: rgba(150, 140, 140,0.3);
+    padding: 5px;
+    width: 27px;
+    height: 98.5%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+#right-text{
+    text-align: center;
+    background: rgba(150, 140, 140,0.3);
+    padding: 5px;
+    width: 27px;
+    height: 98.5%;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+#right-text > a{
+    margin: 15px 0px;
+}
+#down-text{
+    position: absolute;
+    bottom: 0px;
+    margin: 0 auto;
+    padding: 10px;
+    width: 98.3%;
+    color: #fff;
+    background: rgba(150, 140, 140,0.3);
+    display: flex;
+    justify-content: center;
+}
